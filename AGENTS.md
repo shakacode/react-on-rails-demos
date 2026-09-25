@@ -28,5 +28,7 @@ Draft readiness also requires the review-app verification described above.
 The seam grants no standing merge authority; follow the direct user or
 maintainer instruction. Keep CI, workflow, build, dependency, runtime, broad
 refactor, and release changes maintainer-gated.
+At batch closeout, auto-merge a ready, low-risk PR only when the task explicitly
+selects `auto` and the full merge gate passes.
 
 Prefix follow-up titles with `Follow-up:`.
