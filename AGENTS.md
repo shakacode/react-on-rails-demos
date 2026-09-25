@@ -29,4 +29,4 @@ The seam grants no standing merge authority; follow the direct user or
 maintainer instruction. Keep CI, workflow, build, dependency, runtime, broad
 refactor, and release changes maintainer-gated.
 
-Prefix follow-up issue titles with `Follow-up:`.
+Prefix follow-up titles with `Follow-up:`.
