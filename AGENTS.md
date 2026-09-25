@@ -29,6 +29,8 @@ The seam grants no standing merge authority; follow the direct user or
 maintainer instruction. Keep CI, workflow, build, dependency, runtime, broad
 refactor, and release changes maintainer-gated.
 At batch closeout, auto-merge a ready, low-risk PR only when the task explicitly
-selects `auto` and the full merge gate passes.
+selects `auto` and the full merge gate passes. A task's merge preference comes
+from its user instruction or trusted workflow; this repository's stored default
+remains `ask`.
 
 Prefix follow-up titles with `Follow-up:`.
