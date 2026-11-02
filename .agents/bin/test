@@ -4,7 +4,7 @@ set -euo pipefail
 cd "$(CDPATH= cd -- "$(dirname -- "$0")/../.." && pwd)"
 
 if (( $# > 0 )); then
-  printf '%s\n' 'error: .agents/bin/test runs the repository root `rake spec` task and accepts no arguments' >&2
+  printf '%s\n' 'error: .agents/shaka/bin/test runs the repository root `rake spec` task and accepts no arguments' >&2
   exit 64
 fi
 
